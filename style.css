@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+.title{
+    color: #ffffff;
+    font-size: large;
+}
+
+#content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-container{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+}
+
+.cal-btn{
+    width:100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 3px;
+}
+
+.color-btn{
+    color: white;
+    background-color: rgb(82, 82, 82);
+}
+
+.btn.color-btn:hover{
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+}
+
+td{
+    padding: 2px !important;
+}
+
+.display{
+    min-height: 2.5rem;
+    overflow: hidden;
+}
+
+.screen{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
